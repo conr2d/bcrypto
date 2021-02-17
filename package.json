@@ -1,5 +1,5 @@
 {
-  "name": "bcrypto",
+  "name": "@conr2d/bcrypto",
   "version": "5.4.0",
   "description": "JS crypto library",
   "keywords": [
@@ -15,12 +15,15 @@
     "hashing"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bcrypto.git",
+  "repository": "git://github.com/conr2d/bcrypto.git",
   "homepage": "https://github.com/bcoin-org/bcrypto",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bcrypto/issues"
+    "url": "https://github.com/conr2d/bcrypto/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
+  "contributors": [
+    "Jeeyong Um <conr2d@gmail.com>"
+  ],
   "main": "./lib/bcrypto.js",
   "scripts": {
     "install": "node-gyp rebuild",
